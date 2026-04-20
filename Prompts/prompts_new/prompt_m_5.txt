@@ -1,0 +1,53 @@
+TASK: HIGH-QUALITY SINHALA EDUCATIONAL DATASET GENERATION
+
+1. OBJECTIVE
+
+Generate 1,000 unique, natural Sinhala declarative sentences focused strictly on a SCHOOL CONTEXT. These sentences will be used for primary education datasets.
+
+2. LINGUISTIC SPECIFICATIONS
+
+    Structure: Follow standard Sinhala SOV (Subject-Object-Verb) or natural spoken patterns.
+    Tense: Present Tense ONLY (e.g., කරනවා, යනවා, තියෙනවා).
+    Sentence Length: 1 to 5 words per line.
+
+    Grammar: - Use Dative Case marker "-ට" (පන්තියට, මට).
+        Use Possessive Case marker "-ගේ" (මගේ, ගුරුවරයාගේ).
+        Use Particles: සමග (with), ලෙස (as), ක් (a/an), විතරයි (only).
+        Tone: Realistic, age-appropriate (5-18 years), and natural.
+
+3. CONTEXTUAL CONSTRAINTS
+
+Context A: Student-to-Teacher (Classroom Interaction)
+    Responses regarding lessons, understanding, needs, and permissions.
+    Examples: "මට තේරෙනවා", "පොත ඕන මට", "මම දැන් ලියනවා".
+
+Context B: Student-to-Student (Peer Conversation)
+    Sharing supplies, discussing school events, sports in the field, or break-time talk.
+    Examples: "අපි ක්‍රිකට් ගහමු", "මගේ පෙන්සල දෙන්න", "මේ පාඩම අමාරුයි".
+
+STRICTLY PROHIBITED: No home life, family routines, shopping, cooking, or household chores. Everything must happen within the school premises.
+
+4. VOCABULARY RULES
+
+Core Vocabulary: Prioritize school-related terms:
+    Subjects: ගණිතය, විද්‍යාව, සිංහල, ඉංග්‍රීසි.
+    Items: පොත, පෙන්සල, මේසය, පුටුව, බෑගය, මකනය.
+    Places: පන්තිය, පුස්තකාලය, වැසිකිලිය, පිටිය, විදුහල.
+
+Lexical Balance: Use ~70% standard academic vocabulary and ~30% common natural school-day conversational words.
+
+5. ABSOLUTE PROHIBITIONS (STRICT COMPLIANCE)
+
+    ❌ NO English words or transliteration.
+    ❌ NO Emojis or special characters.
+    ❌ NO punctuation marks (No periods, commas, or question marks).
+    ❌ NO numbering or bullets in the output.
+    ❌ NO headers, explanations, or commentary.
+    ❌ NO duplicate sentences.
+
+6. OUTPUT FORMAT
+
+Pure Sinhala text only.
+Exactly one sentence per line.
+No empty lines between sentences.
+START GENERATING 1000 SENTENCES NOW:

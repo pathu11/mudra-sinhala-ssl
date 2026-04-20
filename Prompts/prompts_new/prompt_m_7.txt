@@ -1,0 +1,477 @@
+# SCHOOL-FOCUSED SINHALA SENTENCE GENERATION PROMPTS
+## Short Declarative Sentences (1-5 Words) - School Context ONLY
+
+---
+
+# CRITICAL VOCABULARY RULE
+
+**PRIORITIZE WORDS FROM THE PROVIDED WORDLIST BUT YOU MAY USE NATURAL SINHALA WORDS BEYOND THE WORDLIST TO CREATE REALISTIC, NATURAL SENTENCES.**
+
+**Vocabulary Guidelines:**
+- **60-80% of words** in each sentence should come from the wordlist
+- **20-40% of words** may be common, natural Sinhala words outside the wordlist
+- New words MUST be:
+  - Common, everyday Sinhala vocabulary
+  - Natural and appropriate for the **SCHOOL CONTEXT**
+  - Grammatically correct
+  - Age-appropriate for school children (ages 5-18)
+- The goal is to create a **natural, diverse word set** that sounds like real school conversations
+- **Do not use any punctuation or special characters**
+- Avoid forcing wordlist words unnaturally - prioritize sentence naturalness over strict wordlist adherence
+
+# ABSOLUTE PROHIBITIONS (ALL CONTEXTS)
+
+❌ NO English words
+❌ NO emojis
+❌ NO mixed languages
+❌ NO numbering in output
+❌ NO explanations
+❌ NO headers in output
+❌ NO empty lines between sentences
+❌ NO comments
+❌ NO duplicate sentences
+❌ NO punctuation marks (. , ! ? etc.)
+❌ NO non-school contexts (home life, family activities outside school, shopping, etc.)
+
+# OUTPUT FORMAT (ALL CONTEXTS)
+
+- ONE sentence per line
+- NO line numbers
+- NO blank lines
+- Pure sentence output only
+- NO punctuation at end of sentences
+
+# GRAMMATICAL REQUIREMENTS (ALL CONTEXTS)
+
+**Case Markers (use these combinations):**
+- Possessive: ගේ, ගෙන් (e.g., මගේ, ගුරුවරයාගේ, මිතුරාගේ)
+- Dative: ට (e.g., මට, ගුරුවරයාට, පන්තියට)
+
+**Particles to use:**
+- සමග (with), ලෙස (as), ක් (a/an), මෙන් (like), විතරයි (only), වගේ (like), වැනි (such as)
+
+**Allowed combinations:**
+- Base noun + ට (පොත → පොතට, පන්තිය → පන්තියට)
+- Base noun + ගේ (ගුරුවරයා → ගුරුවරයාගේ)
+- Pronoun + ගේ (මම → මගේ)
+
+# CONTEXT 1: STUDENT RESPONSES TO TEACHERS (PRESENT TENSE)
+
+## OBJECTIVE
+Generate 1000 declarative present tense sentences of students responding to teachers in school.
+
+## SPECIFICATIONS
+- **Sentence Type:** Declarative (statements)
+- **Tense:** Present tense ONLY
+- **Length:** 1-5 words per sentence
+- **Speaker:** Students responding to teachers
+- **Context:** **SCHOOL CLASSROOM ONLY** - lessons, classwork, school activities
+- **Setting:** Inside classroom, during lessons, school premises
+
+## STRICT SCHOOL CONTEXT REQUIREMENTS
+
+**✓ ALLOWED (School-related only):**
+- Classroom activities and lessons
+- Understanding/not understanding lessons
+- School subjects (ගණිතය, විද්‍යාව, සිංහල, etc.)
+- School supplies (පොත, පෙන්සල, මේසය, etc.)
+- School locations (පන්තිය, පුස්තකාලය, වැසිකිලිය, etc.)
+- Teacher-student interactions
+- School routines (පාඩම් කරනවා, පරීක්ෂණය, etc.)
+- School feelings about lessons
+
+**✗ NOT ALLOWED (Non-school contexts):**
+- Home activities (cooking, cleaning at home)
+- Family members doing non-school things
+- Shopping or markets
+- General daily routines outside school
+- Food preparation at home
+- Household chores
+
+## CONTENT FOCUS
+
+### Response types (ALL SCHOOL-RELATED):
+
+**1. Understanding/Confusion about LESSONS:**
+- තේරෙනවා (I understand)
+- තේරෙන්නේ නැ (I don't understand)
+- මට අමාරුයි (It's difficult for me)
+- ගණිතය තේරෙනවා (I understand math)
+- විද්‍යාව අමාරුයි (Science is difficult)
+
+**2. Needing SCHOOL ITEMS:**
+- මට පෙන්සලක් ඕන (I need a pencil)
+- ඔහුට පොත ඕන (Need the book)
+- මට මකනයක් ඕන (I need an eraser)
+
+**3. Going to SCHOOL PLACES:**
+- මම වැසිකිලියට යනවා  (I'm going to the toilet)
+- අපි පුස්තකාලයට යනවා (Going to the library)
+- ඇය පිටියට යනවා (Going to the field)
+
+**4. Doing SCHOOL WORK:**
+- මම ලියනවා (I'm writing)
+- පාඩම් කරනවා (Doing lessons)
+- මම කියවනවා (I'm reading)
+- වැඩ ඉවරයි (Work is finished)
+
+**5. Feelings about SCHOOL/LESSONS:**
+- මට සතුටුයි (I'm happy)
+- මම බයයි පරීක්ෂණයට (I'm scared of the exam)
+- ලැජ්ජායි (I'm shy)
+
+## SENTENCE PATTERNS
+
+### Pattern 1: Simple understanding statements (1-2 words)
+```
+තේරෙනවා
+දන්නවා
+තේරෙන්නේ නැ
+අමාරුයි
+ලේසියි
+```
+
+### Pattern 2: Subject + understanding (2-3 words)
+```
+මට තේරෙනවා
+මම දන්නවා
+මට අමාරුයි
+ගණිතය තේරෙනවා
+විද්‍යාව දන්නවා
+```
+
+### Pattern 3: School needs (2-4 words)
+```
+මට පෙන්සලක් ඕන
+පොත ඕන මට
+රබර් ඕන
+මට මේසයක් ඕන
+```
+
+### Pattern 4: Going to school places (3-5 words)
+```
+මම යනවා වැසිකිලියට
+පුස්තකාලයට යනවා මම
+පන්තියට යනවා දැන්
+පිටියට යනවා
+```
+
+### Pattern 5: Doing school work (2-4 words)
+```
+මම පොතේ ලියනවා 
+කියවනවා දැන්
+මම පාඩම් කරනවා 
+මගේ වැඩ ඉවරයි
+```
+
+### Pattern 6: School feelings (2-5 words)
+```
+මට සතුටුයි අද
+බයයි පරීක්ෂණයට
+මම ලැජ්ජායි කතා කරන්න
+මට සතුටුයි පාඩම තේරුණට
+```
+
+## KEY VOCABULARY (School Context Only)
+
+**Pronouns:**
+- මම, මට, මගේ, අපි, අපිට
+
+**School Subjects:**
+- ගණිතය, විද්‍යාව, සිංහල, ඉංග්‍රීසි, ඉතිහාසය, භූගෝලය, චිත්‍ර
+
+**School Items:**
+- පොත, පෙන්සල, රබර්, පෙන්සල් කේස්, මේසය, පුටුව, බෑගය
+
+**School Places:**
+- පන්තිය, පුස්තකාලය, වැසිකිලිය, පිටිය, විදුහල, පාසල
+
+**School Actions:**
+- ලියනවා, කියවනවා, පාඩම් කරනවා, ඉගෙන ගන්නවා, යනවා, එනවා
+
+**Understanding:**
+- තේරෙනවා, දන්නවා, තේරෙන්නේ නැ, දන්නේ නැ
+
+**School Feelings:**
+- සතුටු, බය, ලැජ්ජාව, අමාරු, ලේසි
+
+**School Time:**
+- දැන්, අද, හෙට, පරීක්ෂණය, පාඩම
+
+## VALIDATION CHECKLIST
+✓ Student perspective (use මම, අපි, මට)
+✓ Present tense only (කරනවා, යනවා, තියෙනවා)
+✓ 1-5 words per sentence
+✓ School context ONLY (classroom, lessons, school activities)
+✓ Realistic student speech to teachers
+✓ No home/family activities
+✓ No punctuation
+
+---
+
+# CONTEXT 2: STUDENT TO STUDENT CONVERSATIONS (PRESENT TENSE)
+
+## OBJECTIVE
+Generate 1000 declarative present tense sentences of students talking to each other in school.
+
+## SPECIFICATIONS
+- **Sentence Type:** Declarative
+- **Tense:** Present tense ONLY
+- **Length:** 1-5 words per sentence
+- **Speakers:** Student to student (peer conversation)
+- **Context:** **SCHOOL ENVIRONMENT ONLY**
+- **Tone:** Friendly, casual, age-appropriate
+- **Setting:** Classroom, playground, cafeteria, school premises
+
+## STRICT SCHOOL CONTEXT REQUIREMENTS
+
+**✓ ALLOWED (School-related only):**
+- Talking about lessons together
+- Sharing school supplies
+- Discussing school activities
+- Planning school games/sports
+- Talking about teachers
+- Discussing homework/classwork
+- Chatting during breaks AT SCHOOL
+- School sports/games
+- School events
+
+**✗ NOT ALLOWED:**
+- Family activities
+- Home life
+- Shopping together
+- Weekend plans outside school
+- Family visits
+- Home cooking/eating (unless school lunch)
+
+## CONTENT FOCUS
+
+### Conversation types (ALL SCHOOL-RELATED):
+
+**1. Sharing about LESSONS:**
+- මේ පාඩම අමාරුයි (This lesson is difficult)
+- ගණිතය තේරෙනවද (Do you understand math)
+- මම දන්නවා මේක (I know this)
+- මට තේරෙන්නේ නැ (I don't understand)
+
+**2. Sharing SCHOOL ITEMS:**
+- මගේ පෙන්සල තියෙනවා (I have my pencil)
+- පොත දෙන්න (Give the book)
+- මට රබර් දෙනවද (Will you give me eraser)
+- ඔබගේ පෙන්සල ගන්නද (Can I take your pencil)
+
+**3. Discussing SCHOOL ACTIVITIES:**
+- අපි සෙල්ලම් කරමු (Let's play)
+- ක්‍රිකට් ගහමු  (Let's play cricket in the field)
+- පුස්තකාලයට යමු (Let's go to library)
+- එකට පාඩම් කරමු (Let's study together)
+
+**4. Talking about CLASSMATES/TEACHERS:**
+- ඔහු දන්නවා ගණිතය (He knows math)
+- ඇය ලියනවා ඉක්මනින් (She writes fast)
+- ගුරුවරයා එනවා (Teacher is coming)
+
+**5. SCHOOL BREAK/SPORTS:**
+- අපි දුවමු (Let's run)
+- ක්‍රීඩා කරමු (Let's play sports)
+- කෑම කනවද (Are you eating)
+- විවේකය දැන් (Break time now)
+
+## SENTENCE PATTERNS
+
+### Pattern 1: Simple statements (1-2 words)
+```
+තේරෙනවා
+දන්නවා
+අමාරුයි
+ලේසියි
+එනවා
+යනවා
+```
+
+### Pattern 2: Possession/sharing (2-4 words)
+```
+මගේ පොත තියෙනවා
+ඔබගේ පෙන්සල දෙන්න
+මට රබර් ඕන
+පොත ගන්නවද
+```
+
+### Pattern 3: School activities (2-5 words)
+```
+අපි එකට සෙල්ලම් කරමු
+ක්‍රිකට් ගහමු දැන්
+අපි පුස්තකාලයට යමු 
+අපි එකට පාඩම් කරමු 
+```
+
+### Pattern 4: About lessons (2-5 words)
+```
+මේ පාඩම අමාරුයි
+ඔබට ගණිතය තේරෙනවද 
+මට විද්‍යාව ලේසියි 
+මම මේක දන්නවා 
+```
+
+### Pattern 5: About others (3-5 words)
+```
+ඔහු හොඳට දන්නවා 
+ඇය ඉක්මනින් ලියනවා 
+ගුරුවරයා දැන් එනවා 
+මිතුරා ක්‍රීඩාපිටියට යනවා 
+```
+
+### Pattern 6: School sports/break (2-4 words)
+```
+අපි දුවමු පිටියේ
+ක්‍රිකට් ගහමු
+කෑම කනවද
+විවේකය දැන් ඉවරයි
+```
+
+## KEY VOCABULARY (School Context Only)
+
+**Peer Pronouns:**
+- ඔබ, ඔබට, ඔබගේ, ඔහු, ඇය, අපි, මිතුරා, මිතුරිය
+
+**Sharing Verbs:**
+- දෙනවා, ගන්නවා, බෙදාගන්නවා
+
+**School Together:**
+- සමග, එකට, අපි සියලු දෙනාම
+
+**School Activities:**
+- සෙල්ලම් කරනවා, පාඩම් කරනවා, කතා කරනවා, ක්‍රීඩා කරනවා
+
+**Possessives:**
+- මගේ, ඔබගේ, ඔහුගේ, ඇයගේ
+
+**School Subjects:**
+- ගණිතය, විද්‍යාව, සිංහල, ඉතිහාසය
+
+**School Items:**
+- පොත, පෙන්සල, මකනය, බෑගය, මේසය
+
+**School Places:**
+- පන්තිය, පුස්තකාලය, පිටිය, වැසිකිලිය, කැන්ටීනය
+
+**School Sports:**
+- ක්‍රිකට්, පාපන්දු, දුවනවා, පනිනවා
+
+## VALIDATION CHECKLIST
+✓ Peer-to-peer tone (friendly, casual)
+✓ Present tense only
+✓ 1-5 words per sentence
+✓ School context ONLY
+✓ Natural student conversation
+✓ No home/family activities
+✓ No punctuation
+
+---
+
+# UNIVERSAL VALIDATION FOR BOTH CONTEXTS
+
+## Before finalizing, verify EVERY sentence:
+
+### Content Validation:
+✓ Is it set in SCHOOL environment? (classroom, playground, library, field, etc.)
+✓ Does it relate to SCHOOL activities? (lessons, homework, sports, breaks)
+✓ Are the speakers in SCHOOL? (students and teachers)
+✓ Does it involve SCHOOL topics? (subjects, supplies, school routines)
+
+### Grammar Validation:
+✓ Is it declarative (statement)?
+✓ Is it present tense? (කරනවා, යනවා, ඉන්නවා, තියෙනවා)
+✓ Does it have 1-5 words?
+✓ Is 60-80% wordlist vocabulary?
+✓ Is it realistic and natural?
+✓ Is it unique (not repeated)?
+✓ Is it in Sinhala script only?
+✓ No punctuation marks?
+
+### Context Validation:
+✓ NO home activities
+✓ NO family routines outside school
+✓ NO shopping or errands
+✓ NO cooking at home
+✓ NO household chores
+✓ ONLY school-related content
+
+---
+
+# WORDLIST
+
+[Insert complete wordlist here]
+
+මම,මට,මගේ,ඔබ,ඔබට,ඔබගේ,ඔහු,ඔහුට,ඔහුගේ,ඇය,ඇයට,ඇයගේ,අපි,අපිට,අපේ... [rest of wordlist]
+
+---
+
+# EXAMPLE SENTENCES (DO NOT COPY - MODELS ONLY)
+
+## Context 1: Student to Teacher
+
+**Understanding:**
+1. මට තේරෙනවා
+2. ගණිතය අමාරුයි
+3. තේරෙන්නේ නැ මට
+4. විද්‍යාව ලේසියි
+5. මම දන්නවා මේක
+
+**Needs:**
+6. මට පෙන්සලක් ඕන
+7. පොත ඕන
+8. රබර් ඕන මට
+
+**Actions:**
+9. මම දැන් ලියනවා
+10. පොත කියනවනවා
+11. වැඩ ඉවරයි
+12.  මම පාඩම් කරනවා
+
+**Going places:**
+13. මම වැසිකිලියට යනවා 
+14. පුස්තකාලයට යනවා
+
+**Feelings:**
+15. මට සතුටුයි අද
+16. මම බයයි පරීක්ෂණයට
+
+## Context 2: Student to Student
+
+**About lessons:**
+17. මේ පාඩම අමාරුයි
+18. ගණිතය තේරෙනවද
+19. මම දන්නවා
+
+**Sharing:**
+20. මගේ පෙන්සල තියෙනවා
+21. පොත දෙන්න
+22. රබර් ගන්නවද
+
+**Activities:**
+23. අපි සෙල්ලම් කරමු
+24. ක්‍රිකට් ගහමු
+25. එකට පාඩම් කරමු
+26. පුස්තකාලයට යමු
+
+**About others:**
+27. ඔහු හොඳට දන්නවා
+28. ඇය ඉක්මනින් ලියනවා 
+29. ගුරුවරයා එනවා
+
+**Sports/break:**
+30. අපි ක්‍රීඩාපිටියේ  දුවමු
+31. විවේකය දැන් ඉවරයි
+
+---
+
+# FINAL INSTRUCTION
+
+Generate EXACTLY 1000 unique declarative present tense sentences (1-5 words) following ALL rules above. 
+
+**CRITICAL:** ALL sentences MUST be in SCHOOL context ONLY. No home activities, no family routines outside school, no shopping, no household chores.
+
+Use 60-80% wordlist vocabulary + 20-40% natural school-related Sinhala words.
+
+Begin immediately with sentence output only - NO explanations, NO numbering, NO punctuation.
