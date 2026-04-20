@@ -29,6 +29,3 @@ python Evaluation/evaluate_all_models.py
 - Several experiments are notebook-based (`.ipynb`).
 - Large data files and spreadsheets are included for analysis and reporting.
 
-## License
-
-Add a license file if/when the project license is finalized.
